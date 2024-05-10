@@ -1,0 +1,152 @@
+@font-face {
+    font-family: "Erotiqa";
+    src: url('../fonts/coolvetica\ rg.otf');
+}
+@font-face {
+    font-family: "Juli";
+    src: url('../fonts/Julitho\ Regular.ttf');
+}
+@font-face {
+    font-family: "Juli-bold";
+    src: url('../fonts/Julitho\ Bold.ttf');
+}
+.dm{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+    background-size: cover;
+    font-family: 'Juli';
+}
+.side-ground{
+    position: absolute;
+    width: 50vw;
+    height: 89vh;
+    background-color: rgb(244, 97, 28);
+    opacity: .7;
+    overflow: hidden;
+}
+.product-name{
+    color: #000000;
+    font-family: 'Erotiqa';
+    font-size: 380px;
+    margin: 0;
+    position: absolute;
+    bottom: -95px;
+}
+.product-sml{
+    color: #fff;
+    font-family: 'Erotiqa';
+    font-size: 380px;
+    position: absolute;
+    top: -140px;
+    z-index: -1;
+}
+.product-name::selection{
+    user-select: none;
+}
+.product-sml::selection{
+    user-select: none;
+}
+.signin{
+    width: 20vw;
+    height: 60vh;
+    background-color: #000000;
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* font-family: 'Righteous', sans-serif; */
+    font-family: "Juli";
+    color: rgb(244, 97, 28);
+    border-radius: 5px;
+}
+.ing{
+    margin-top: 0px;
+    width: 95%;
+    height: 50px;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    background-color: rgb(30, 30, 30);
+    border: .01px solid #494949;
+    border-radius: 10px;
+    padding-left: 10px;
+    color: rgb(244, 97, 28);
+}
+.signin input::placeholder{
+    text-transform: capitalize;
+    /* font-family: 'Righteous', sans-serif; */
+    /* font-family: 'Erotiqa'; */
+    font-family: "Juli";
+    letter-spacing: .5px;
+    color: rgb(244, 97, 28);
+}
+.btn-span{
+    display: flex;
+    gap: 10px;
+    width: 20vw;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.signin button{
+    color: #000000;
+    background-color: #494949;
+    border-radius: 0;
+    font-family: "Juli-bold";
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(244, 97, 28);
+}
+.signin a{
+    font-family: "Juli";
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: rgb(244, 97, 28);
+    transform: translate(-50%,-50%);
+    margin-left: 42%;
+    cursor: poi;
+}
+.head{
+    font-size: 35px;
+    font-family: "Juli";
+    text-transform: none;
+    font-weight: 200;
+    color: rgb(244, 97, 28);
+}
+.signup-google{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #494949;
+    font-size: 23px;
+    cursor: pointer;
+}
+.horizontal{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.horizontal hr{
+    width: 45%;
+    border-color: rgb(244, 97, 28);
+}
+.sign-ii{
+    margin-top: 20px;
+}
+@media only screen and (max-width: 600px){
+    .signin{
+        width: 90%;
+    }
+}
+
+/*Tried*/

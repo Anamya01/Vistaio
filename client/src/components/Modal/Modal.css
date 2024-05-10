@@ -1,0 +1,65 @@
+.frametag{
+    min-width: 100%;
+    min-height: 70%;
+}
+@font-face {
+    font-family: "Erotiqa";
+    src: url('../../fonts/coolvetica\ rg.otf');
+}
+iframe{
+    border: none;
+}
+#modal-modal-title{
+    color: #fff;
+    font-family: 'Righteous', sans-serif;
+    font-size: 1.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(214,85,24);
+}
+#modal-modal-description{
+    color: #fff;
+    font-family: 'Righteous', sans-serif;
+    font-family: "Erotiqa";
+}
+#rs-date{
+    color: rgb(214,85,24);
+}
+.Boxmodel{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 60%;
+  height: 90%;
+  background-color: #000000;
+  border: .1px solid rgb(54, 22, 7);
+  box-shadow: 24;
+  padding: 10px;
+}
+@media only screen and (max-width: 600px){
+    .Boxmodel{
+        width: 95vw;
+        height: 70%;
+    }
+    #modal-modal-title{
+        font-size: .9rem;
+    }
+    #modal-modal-description{
+        font-size: .6rem;
+    }
+    #rs-date{
+        font-size: .6rem;
+    }
+}
+.wtc{
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    margin-left: 0;
+}
+.play-btn{
+    font-size: 10px;
+}

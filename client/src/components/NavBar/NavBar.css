@@ -1,0 +1,138 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@font-face {
+    font-family: "Minecraft";
+    src: url('../../fonts/ErotiqueAlternateTrial-Regular.ttf');
+}
+@font-face {
+    font-family: "Erotiqa";
+    src: url('../../fonts/ErotiqueTrial-Regular.ttf');
+}
+.NavBar{
+    width: 97.5vw;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    color: #fff;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.user{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.profile{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.profile img{
+    width: 35px;
+    height: 35px;
+    border-radius: 7px;
+}
+.profile p{
+    font-size: 16px;
+    font-family: 'Righteous', sans-serif;
+    font-family: "Erotiqa";
+    color: #8070ff;
+}
+.vistaio{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+.vistaio h1{
+    font-family: 'Righteous', sans-serif;
+    color: #f20e89;
+    font-family: "Erotiqa";
+    color: rgb(214,85,24);
+    letter-spacing: .5px;
+}
+
+.vistaio p{
+    font-family: 'Righteous', sans-serif;
+    font-family: "Erotiqa";
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+}
+.acountbtn{
+    width: 70px;
+    height: 20px;
+    font-size: .8rem;
+    margin: 5px;
+    margin-bottom: 10px;
+    background:none;
+    color: #5fe85d;
+    color: rgb(214,85,24);
+    font-family: 'Erotiqa';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+
+}
+.acountbtn-log{
+    width: 70px;
+    height: 20px;
+    font-size: .8rem;
+    margin: 5px;
+    margin-bottom: 10px;
+    background:none;
+    color: #5fe85d;
+    color: rgb(214,85,24);
+    font-family: 'Erotiqa';
+}
+.acountbtn:hover{
+    text-decoration: underline;
+}
+.bars{
+    position: absolute;
+    right: 15px;
+    z-index: 100;
+    width: 80px;
+    border-radius: 5px;
+    background-color: rgb(30, 30, 30);
+    border: .01px solid #494949;
+    cursor:cell;
+}
+.bars .userName{
+    color: rgb(214,85,24);
+    margin: 5px;
+}
+.account-box{
+    height: 19px;
+    padding: 10px;
+    background-color: rgba(48,24,12,255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: .1px solid rgb(101, 39, 10);
+}
+.account-icon{
+    color: rgb(214,85,24);
+    font-size: 25px;
+}
+@media only screen and (max-width: 600px) {
+    .NavBar {
+        width: 100%;
+        height: 30px;
+        padding: 2px;
+        margin-top: 5px;
+    }
+    #topstrem{
+        display: none;
+    }
+    .srch{
+        width: 30px;
+        height: 10px;
+    }
+  }

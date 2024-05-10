@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "Erotiqa";
+    src: url('../../fonts/coolvetica\ rg.otf');
+}
+.footer{
+    width: 100%;
+    height: 10vh;
+    color: #8070ff;
+    color: rgb(214,85,24);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgb(16, 16, 16);
+    font-family: 'Righteous', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+    gap: 100px;
+    justify-content: space-evenly;
+    font-family: "Erotiqa";
+    border-top: .01px solid #494949;
+    /* text-decoration: underline; */
+    /* text-transform: uppercase; */
+}
+.footer ul{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.footer ul li{
+    padding: 12px;
+    list-style-type: none;
+}
+
+.footer ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}

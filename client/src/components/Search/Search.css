@@ -1,0 +1,31 @@
+.Search{
+
+}
+@font-face {
+    font-family: "Erotiqa";
+    src: url('../../fonts/coolvetica\ rg.otf');
+}
+.searching{
+    background-color: rgba(48,24,12,255);
+    color: rgb(214,85,24);
+    color: whitesmoke;
+    padding: 10px;
+    font-family: 'Righteous', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: .1px solid rgb(101, 39, 10);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.color{
+    color: #8070ff;
+    color: rgb(214,85,24);
+}
+input::placeholder{
+    font-size: 16px;
+    color: rgb(123, 123, 123);
+}
+a{
+    text-decoration: none;
+}

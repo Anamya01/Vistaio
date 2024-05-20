@@ -11,7 +11,8 @@ function SearchList(param) {
   }
 
   //URL
-  let url = `https://vidsrc.to/embed/${param.param.media_type}/${param.param.id}`
+  let url = `https://vidsrc.to/embed/${param.param.media_type}/${param.param.id}`;
+  url = `https://moviesapi.club/movie/${param.param.id}`;
 
   //TITLE
     let title = param.param.title;

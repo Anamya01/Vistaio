@@ -24,7 +24,7 @@ function Cards(param) {
     setModal(true);
   }
   let id = param.param.id;
-  let url = `https://vidsrc.to/embed/${param.param.media_type}/${param.param.id}`
+  let url = `https://moviesapi.club/${param.param.media_type}/${param.param.id}`
     let title = param.param.title;
     let rs = param.param.release_date;
     if(title === undefined){
@@ -34,7 +34,7 @@ function Cards(param) {
       rs = param.param.first_air_date;
     }
     if(param.param.media_type === undefined){
-      url = `https://vidsrc.to/embed/movie/${param.param.id}`
+      url = `https://moviesapi.club/movie/${param.param.id}`
     }
     let shorten = title ? title.substring(0, 15) : '';
     shorten = title > shorten ? shorten + '...' : shorten;

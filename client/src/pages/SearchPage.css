@@ -1,3 +1,7 @@
+@font-face {
+    font-family: "Erotiqa";
+    src: url('../fonts/coolvetica\ rg.otf');
+}
 .searcher{
     width: 90vw;
     height: 100px;
@@ -14,8 +18,8 @@
 }
 .searcher form input{
     height: 30px;
-    width: 30%;
-    border-radius: 7px;
+    width: 10%;
+    border-radius: 10px;
     border: none;
     outline: none;
     color: #828282;
@@ -24,14 +28,15 @@
     background-color: #262626;
     transition: all .5s ease-in-out;
     margin: 10px;
-    font-family: 'Righteous', sans-serif;
+    font-family: 'Erotiqa';
     font-weight: lighter;
-    text-align: center;
+    text-align: left;
+    padding-left: 10px;
 }
 .searcher form input:focus{
-    width: 50%;
-    border: .1px solid #ceffcd;
-    color: #5fe85d;
+    width: 25%;
+    border: .1px solid rgb(214,85,24);
+    color: rgb(214,85,24);
     font-size: 1.1rem;
 }
 .searcher form input::placeholder{
@@ -44,12 +49,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100px;
+    width: 50px;
     margin: 10px;
-    background-color: #5fe85d;
+    margin-left: 2px;
+    background-color:  rgb(214,85,24);
     height: 40px;
     color: #000000;
-    font-size: 1.1rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border-radius: 10px;
 }
 .option{
     width: 232px;
@@ -57,19 +65,19 @@
     margin-top: -10px;
     display: flex;
     justify-content: space-between;
-    font-family: 'Righteous', sans-serif;
+    font-family: 'Erotiqa';
     font-size: 1.1rem;
 }
 .movie{
     text-align: center;
     width: 100px;
-    color: #5fe85d;
+    color: rgb(214,85,24);
     background-color: #262626;
     padding: 5px;
     height: 30px;
     display: flex;
     align-items: center;
-    border-radius: 7px;
+    border-radius: 10px;
     justify-content: center;
     transition: .4s all ease-in-out;
     cursor: pointer;
@@ -82,14 +90,15 @@
     padding: 5px;
     height: 30px;
     width: 100px;
-    border-radius: 7px;
-    color: #5fe85d;
+    border-radius: 10px;
+    color: rgb(214,85,24);
     background-color: #262626;
     transition: all .4s ease-in-out;
     cursor: pointer;
 }
 .clicked{
-    border: .1px solid #5fe85d;
+    /* border: .1px solid rgb(214,85,24); */
+    background-color: rgb(62, 40, 28);
 }
 
 
@@ -109,7 +118,7 @@
     .searcher form input:focus{
     width: 100%;
     border: .1px solid #ceffcd;
-    color: #5fe85d;
+    color: rgb(214,85,24);
     }
     .searcher .option{
         margin-top: 0px;

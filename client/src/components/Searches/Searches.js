@@ -1,8 +1,8 @@
 import React from 'react'
 import './Searches.css';
 import { useState, useEffect, useCallback } from 'react';
-import SearchList from './SearchList/SearchList';
 import Latest from '../Latest/Latest';
+import Cards from '../Cards/Cards';
 function Searches(param) {
     const query = param.param;
     const media = param.media;
@@ -33,7 +33,7 @@ function Searches(param) {
   return (
     <div className='containerS'>
       { Lists === undefined ? (<Latest />) :
-        Lists.map(items => <SearchList param={items} media = {media} />)
+        Lists.map(items => <Cards param={items} media = {media} />)
       }
     </div>
   )

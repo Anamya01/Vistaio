@@ -121,6 +121,9 @@ a{
     color: rgb(214,85,24);
     font-size: 25px;
 }
+.vistaio-star{
+    color: #ffc09b;
+}
 @media only screen and (max-width: 600px) {
     .NavBar {
         width: 100%;

@@ -26,7 +26,7 @@ function SearchPage() {
         <div  className='searcher'>
         <form onSubmit={SubmitHandler}>
             <input value={SearchValue} onChange={ChangeHandler} placeholder='Search'></input>
-            <button type='Submit'> Search &nbsp; <IoSearchOutline /> </button>
+            <button type='Submit'><IoSearchOutline /></button>
             <div className='option'>
             <div className={media === true ? 'movie clicked' : 'movie'} onClick={mediaHandlerTrue}>Movies</div>
             <div className={media === false ? 'series clicked' : 'series'} onClick={mediaHandlerFalse}>Series</div>

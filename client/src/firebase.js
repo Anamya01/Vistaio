@@ -8,12 +8,7 @@ import { GoogleAuthProvider } from "firebase/auth";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyBSI8TSY67GU9vrlwJWYDXcKG4eackVdZ8",
-  authDomain: "wacauth-66edb.firebaseapp.com",
-  projectId: "wacauth-66edb",
-  storageBucket: "wacauth-66edb.appspot.com",
-  messagingSenderId: "351024297977",
-  appId: "1:351024297977:web:df92865f166b783df52f28"
+  //Add Your Firebase Configuration.
 };
 
 // Initialize Firebase

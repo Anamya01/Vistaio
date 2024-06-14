@@ -11,7 +11,7 @@ function Payment() {
         price : 49,
     }];
     const makePayment = async() =>{
-        const stripe = await loadStripe('pk_test_51OXgLWSBnGr0bdLq7u6gxTaC5zytXZHgn2tZn7ew8RUPgwFCH7zqGkGoIp3wMNPRyftnI7liqDxq8yz59n79f9bL00VyIhjQHP');
+        const stripe = await loadStripe('YOUR STRIPE API KEY');
         const body = {
             products: cart
         }

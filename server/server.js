@@ -4,7 +4,7 @@ var express = require("express")
 
 
 //Stripe Initialization
-const stripe = require('stripe')('sk_test_51OXgLWSBnGr0bdLqCubfBoAqk1x9K3DupXQ1siSY452MhJfIm3Kut3GUIjV2ZWxCEWWgZ9euHYlt4xKjYbJC0Prj00ljMAlCaB');
+const stripe = require('stripe')('');
 
 
 

@@ -4,7 +4,7 @@ var express = require("express")
 
 
 //Stripe Initialization
-const stripe = require('stripe')('');
+const stripe = require('stripe')('//YOUR API STRIPE KEY');
 
 
 
